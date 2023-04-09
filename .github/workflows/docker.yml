@@ -82,3 +82,4 @@ jobs:
           file: image/Dockerfile
           tags: |
             ahjdzx1990/llm-jupyter-stack:${{steps.getrefs.outputs.sha12}}, ahjdzx1990/llm-jupyter-stack:latest
+          push: true
